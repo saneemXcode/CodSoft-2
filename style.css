@@ -70,15 +70,6 @@
 
 }
 
-#mobile {
-    display: none;
-    align-items: center;
-}
-
-#close {
-    display: none;
-}
-
 #hero {
     background-image: url(Main.jpg);
     height: 110vh;
