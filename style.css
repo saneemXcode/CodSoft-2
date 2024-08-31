@@ -181,27 +181,33 @@ p {
         opacity: 1;
     }
 }
-
-
-#hero {
-    animation: slideInFromTop 2s ease-out 0.5s forwards;
+.login{
+    height: 35px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: #088178;
+    color: white;
+    border-radius: 4px;
+    margin-right: -20px;
+    transition: 0.5s ease;
+}
+.login:hover{
+    border: 1px solid #088178 ;
+    background: transparent;
+    color: black;
 }
 
-#hero h4 {
+#hero ,.login,h4 {
     animation: slideInFromTop 2s ease-out 0.5s forwards;
 }
-
-h1 {
+h1,#adjust{
     animation: slideInFromLeft 2s ease-out 0.5s forwards;
 }
-#adjust{
-    animation: slideInFromLeft 2s ease-out 0.5s forwards;  
-}
-
 #navbar {
     animation: slideInFromRight 2s ease-out 0.5s forwards;
 }
 
-button {
+.shop {
     animation: slideInFromBottom 2s ease-out 0.5s forwards;
 }
