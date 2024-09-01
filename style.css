@@ -75,7 +75,7 @@
     height: 110vh;
     width: 100%;
     background-size: cover;
-    /* background-position = for adjusting image in background */
+    /* background-position = for adjusting image in backgrounds */
     background-position: top 8% right 0;
     padding: 0 80px;
     display: flex;
